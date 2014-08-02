@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>25BB0E67-8DC0-402D-90A7-70CD5D5AA67E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>InstaCollageExample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E038E9CF-3DB1-469A-BBD8-80EBDD69AA85</key>
+		<string>https://github.com/vani2/InstaCollageExample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>InstaCollageExample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E038E9CF-3DB1-469A-BBD8-80EBDD69AA85</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/vani2/InstaCollageExample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E038E9CF-3DB1-469A-BBD8-80EBDD69AA85</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E038E9CF-3DB1-469A-BBD8-80EBDD69AA85</string>
+			<key>IDESourceControlWCCName</key>
+			<string>InstaCollageExample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

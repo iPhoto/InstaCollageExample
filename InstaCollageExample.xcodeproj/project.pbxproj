@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6176744198C0B5300C09315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6176743198C0B5300C09315 /* Foundation.framework */; };
+		E6176746198C0B5300C09315 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6176745198C0B5300C09315 /* CoreGraphics.framework */; };
+		E6176748198C0B5300C09315 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6176747198C0B5300C09315 /* UIKit.framework */; };
+		E617674E198C0B5300C09315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E617674C198C0B5300C09315 /* InfoPlist.strings */; };
+		E6176750198C0B5300C09315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E617674F198C0B5300C09315 /* main.m */; };
+		E6176754198C0B5300C09315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6176753198C0B5300C09315 /* AppDelegate.m */; };
+		E6176757198C0B5300C09315 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6176755198C0B5300C09315 /* Main_iPhone.storyboard */; };
+		E617675F198C0B5300C09315 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E617675E198C0B5300C09315 /* Images.xcassets */; };
+		E6176766198C0B5400C09315 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6176765198C0B5400C09315 /* XCTest.framework */; };
+		E6176767198C0B5400C09315 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6176743198C0B5300C09315 /* Foundation.framework */; };
+		E6176768198C0B5400C09315 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6176747198C0B5300C09315 /* UIKit.framework */; };
+		E6176770198C0B5400C09315 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E617676E198C0B5400C09315 /* InfoPlist.strings */; };
+		E6176772198C0B5400C09315 /* InstaCollageExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6176771198C0B5400C09315 /* InstaCollageExampleTests.m */; };
+		E6BBD949198CF62600C24244 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BBD948198CF62600C24244 /* Icon.png */; };
+		E6FCF944198D1000007557DF /* CollageMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FCF943198D1000007557DF /* CollageMaker.m */; };
+		E6FCF947198D101C007557DF /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FCF946198D101C007557DF /* ImageCell.m */; };
+		E6FCF94E198D1046007557DF /* FirstScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FCF949198D1046007557DF /* FirstScreenController.m */; };
+		E6FCF94F198D1046007557DF /* ImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FCF94B198D1046007557DF /* ImagePickerController.m */; };
+		E6FCF950198D1046007557DF /* PreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FCF94D198D1046007557DF /* PreviewViewController.m */; };
+		E6FCF953198D105F007557DF /* PhotosRequestPerformer.m in Sources */ = {isa = PBXBuildFile; fileRef = E6FCF952198D105F007557DF /* PhotosRequestPerformer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6176769198C0B5400C09315 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6176738198C0B5300C09315 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E617673F198C0B5300C09315;
+			remoteInfo = InstaCollageExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E6176740198C0B5300C09315 /* InstaCollageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaCollageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6176743198C0B5300C09315 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6176745198C0B5300C09315 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6176747198C0B5300C09315 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E617674B198C0B5300C09315 /* InstaCollageExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaCollageExample-Info.plist"; sourceTree = "<group>"; };
+		E617674D198C0B5300C09315 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E617674F198C0B5300C09315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6176751198C0B5300C09315 /* InstaCollageExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaCollageExample-Prefix.pch"; sourceTree = "<group>"; };
+		E6176752198C0B5300C09315 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6176753198C0B5300C09315 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6176756198C0B5300C09315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E617675E198C0B5300C09315 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E6176764198C0B5400C09315 /* InstaCollageExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaCollageExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6176765198C0B5400C09315 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E617676D198C0B5400C09315 /* InstaCollageExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstaCollageExampleTests-Info.plist"; sourceTree = "<group>"; };
+		E617676F198C0B5400C09315 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6176771198C0B5400C09315 /* InstaCollageExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaCollageExampleTests.m; sourceTree = "<group>"; };
+		E6BBD948198CF62600C24244 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = Recources/Icon.png; sourceTree = "<group>"; };
+		E6FCF942198D1000007557DF /* CollageMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollageMaker.h; path = CollageMaker/CollageMaker.h; sourceTree = "<group>"; };
+		E6FCF943198D1000007557DF /* CollageMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollageMaker.m; path = CollageMaker/CollageMaker.m; sourceTree = "<group>"; };
+		E6FCF945198D101C007557DF /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageCell.h; path = Cell/ImageCell.h; sourceTree = "<group>"; };
+		E6FCF946198D101C007557DF /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageCell.m; path = Cell/ImageCell.m; sourceTree = "<group>"; };
+		E6FCF948198D1046007557DF /* FirstScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstScreenController.h; path = "View Controllers/FirstScreenController.h"; sourceTree = "<group>"; };
+		E6FCF949198D1046007557DF /* FirstScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstScreenController.m; path = "View Controllers/FirstScreenController.m"; sourceTree = "<group>"; };
+		E6FCF94A198D1046007557DF /* ImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImagePickerController.h; path = "View Controllers/ImagePickerController.h"; sourceTree = "<group>"; };
+		E6FCF94B198D1046007557DF /* ImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImagePickerController.m; path = "View Controllers/ImagePickerController.m"; sourceTree = "<group>"; };
+		E6FCF94C198D1046007557DF /* PreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PreviewViewController.h; path = "View Controllers/PreviewViewController.h"; sourceTree = "<group>"; };
+		E6FCF94D198D1046007557DF /* PreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PreviewViewController.m; path = "View Controllers/PreviewViewController.m"; sourceTree = "<group>"; };
+		E6FCF951198D105F007557DF /* PhotosRequestPerformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotosRequestPerformer.h; path = Network/PhotosRequestPerformer.h; sourceTree = "<group>"; };
+		E6FCF952198D105F007557DF /* PhotosRequestPerformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotosRequestPerformer.m; path = Network/PhotosRequestPerformer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E617673D198C0B5300C09315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6176746198C0B5300C09315 /* CoreGraphics.framework in Frameworks */,
+				E6176748198C0B5300C09315 /* UIKit.framework in Frameworks */,
+				E6176744198C0B5300C09315 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6176761198C0B5400C09315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6176766198C0B5400C09315 /* XCTest.framework in Frameworks */,
+				E6176768198C0B5400C09315 /* UIKit.framework in Frameworks */,
+				E6176767198C0B5400C09315 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6176737198C0B5300C09315 = {
+			isa = PBXGroup;
+			children = (
+				E6176749198C0B5300C09315 /* InstaCollageExample */,
+				E617676B198C0B5400C09315 /* InstaCollageExampleTests */,
+				E6176742198C0B5300C09315 /* Frameworks */,
+				E6176741198C0B5300C09315 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6176741198C0B5300C09315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6176740198C0B5300C09315 /* InstaCollageExample.app */,
+				E6176764198C0B5400C09315 /* InstaCollageExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6176742198C0B5300C09315 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6176743198C0B5300C09315 /* Foundation.framework */,
+				E6176745198C0B5300C09315 /* CoreGraphics.framework */,
+				E6176747198C0B5300C09315 /* UIKit.framework */,
+				E6176765198C0B5400C09315 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6176749198C0B5300C09315 /* InstaCollageExample */ = {
+			isa = PBXGroup;
+			children = (
+				E6FCF93E198D0AF3007557DF /* CollageMaker */,
+				E6FCF93A198D0668007557DF /* Network */,
+				E6FCF938198D061A007557DF /* Cell */,
+				E6FCF937198D0601007557DF /* View Controllers */,
+				E6176752198C0B5300C09315 /* AppDelegate.h */,
+				E6176753198C0B5300C09315 /* AppDelegate.m */,
+				E6176755198C0B5300C09315 /* Main_iPhone.storyboard */,
+				E617675E198C0B5300C09315 /* Images.xcassets */,
+				E6BBD947198CF60200C24244 /* Resources */,
+				E617674A198C0B5300C09315 /* Supporting Files */,
+			);
+			path = InstaCollageExample;
+			sourceTree = "<group>";
+		};
+		E617674A198C0B5300C09315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E617674B198C0B5300C09315 /* InstaCollageExample-Info.plist */,
+				E617674C198C0B5300C09315 /* InfoPlist.strings */,
+				E617674F198C0B5300C09315 /* main.m */,
+				E6176751198C0B5300C09315 /* InstaCollageExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E617676B198C0B5400C09315 /* InstaCollageExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6176771198C0B5400C09315 /* InstaCollageExampleTests.m */,
+				E617676C198C0B5400C09315 /* Supporting Files */,
+			);
+			path = InstaCollageExampleTests;
+			sourceTree = "<group>";
+		};
+		E617676C198C0B5400C09315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E617676D198C0B5400C09315 /* InstaCollageExampleTests-Info.plist */,
+				E617676E198C0B5400C09315 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6BBD947198CF60200C24244 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6BBD948198CF62600C24244 /* Icon.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6FCF937198D0601007557DF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6FCF948198D1046007557DF /* FirstScreenController.h */,
+				E6FCF949198D1046007557DF /* FirstScreenController.m */,
+				E6FCF94A198D1046007557DF /* ImagePickerController.h */,
+				E6FCF94B198D1046007557DF /* ImagePickerController.m */,
+				E6FCF94C198D1046007557DF /* PreviewViewController.h */,
+				E6FCF94D198D1046007557DF /* PreviewViewController.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E6FCF938198D061A007557DF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E6FCF945198D101C007557DF /* ImageCell.h */,
+				E6FCF946198D101C007557DF /* ImageCell.m */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		E6FCF93A198D0668007557DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E6FCF951198D105F007557DF /* PhotosRequestPerformer.h */,
+				E6FCF952198D105F007557DF /* PhotosRequestPerformer.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		E6FCF93E198D0AF3007557DF /* CollageMaker */ = {
+			isa = PBXGroup;
+			children = (
+				E6FCF942198D1000007557DF /* CollageMaker.h */,
+				E6FCF943198D1000007557DF /* CollageMaker.m */,
+			);
+			name = CollageMaker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E617673F198C0B5300C09315 /* InstaCollageExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6176775198C0B5400C09315 /* Build configuration list for PBXNativeTarget "InstaCollageExample" */;
+			buildPhases = (
+				E617673C198C0B5300C09315 /* Sources */,
+				E617673D198C0B5300C09315 /* Frameworks */,
+				E617673E198C0B5300C09315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaCollageExample;
+			productName = InstaCollageExample;
+			productReference = E6176740198C0B5300C09315 /* InstaCollageExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6176763198C0B5400C09315 /* InstaCollageExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6176778198C0B5400C09315 /* Build configuration list for PBXNativeTarget "InstaCollageExampleTests" */;
+			buildPhases = (
+				E6176760198C0B5400C09315 /* Sources */,
+				E6176761198C0B5400C09315 /* Frameworks */,
+				E6176762198C0B5400C09315 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E617676A198C0B5400C09315 /* PBXTargetDependency */,
+			);
+			name = InstaCollageExampleTests;
+			productName = InstaCollageExampleTests;
+			productReference = E6176764198C0B5400C09315 /* InstaCollageExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6176738198C0B5300C09315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					E6176763198C0B5400C09315 = {
+						TestTargetID = E617673F198C0B5300C09315;
+					};
+				};
+			};
+			buildConfigurationList = E617673B198C0B5300C09315 /* Build configuration list for PBXProject "InstaCollageExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6176737198C0B5300C09315;
+			productRefGroup = E6176741198C0B5300C09315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E617673F198C0B5300C09315 /* InstaCollageExample */,
+				E6176763198C0B5400C09315 /* InstaCollageExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E617673E198C0B5300C09315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6BBD949198CF62600C24244 /* Icon.png in Resources */,
+				E617675F198C0B5300C09315 /* Images.xcassets in Resources */,
+				E6176757198C0B5300C09315 /* Main_iPhone.storyboard in Resources */,
+				E617674E198C0B5300C09315 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6176762198C0B5400C09315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6176770198C0B5400C09315 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E617673C198C0B5300C09315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6FCF944198D1000007557DF /* CollageMaker.m in Sources */,
+				E6176754198C0B5300C09315 /* AppDelegate.m in Sources */,
+				E6FCF953198D105F007557DF /* PhotosRequestPerformer.m in Sources */,
+				E6FCF950198D1046007557DF /* PreviewViewController.m in Sources */,
+				E6176750198C0B5300C09315 /* main.m in Sources */,
+				E6FCF94E198D1046007557DF /* FirstScreenController.m in Sources */,
+				E6FCF94F198D1046007557DF /* ImagePickerController.m in Sources */,
+				E6FCF947198D101C007557DF /* ImageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6176760198C0B5400C09315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6176772198C0B5400C09315 /* InstaCollageExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E617676A198C0B5400C09315 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E617673F198C0B5300C09315 /* InstaCollageExample */;
+			targetProxy = E6176769198C0B5400C09315 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E617674C198C0B5300C09315 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E617674D198C0B5300C09315 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E6176755198C0B5300C09315 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6176756198C0B5300C09315 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E617676E198C0B5400C09315 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E617676F198C0B5400C09315 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6176773198C0B5400C09315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E6176774198C0B5400C09315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6176776198C0B5400C09315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaCollageExample/InstaCollageExample-Prefix.pch";
+				INFOPLIST_FILE = "InstaCollageExample/InstaCollageExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6176777198C0B5400C09315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaCollageExample/InstaCollageExample-Prefix.pch";
+				INFOPLIST_FILE = "InstaCollageExample/InstaCollageExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E6176779198C0B5400C09315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstaCollageExample.app/InstaCollageExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaCollageExample/InstaCollageExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "InstaCollageExampleTests/InstaCollageExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E617677A198C0B5400C09315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/InstaCollageExample.app/InstaCollageExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaCollageExample/InstaCollageExample-Prefix.pch";
+				INFOPLIST_FILE = "InstaCollageExampleTests/InstaCollageExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E617673B198C0B5300C09315 /* Build configuration list for PBXProject "InstaCollageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6176773198C0B5400C09315 /* Debug */,
+				E6176774198C0B5400C09315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6176775198C0B5400C09315 /* Build configuration list for PBXNativeTarget "InstaCollageExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6176776198C0B5400C09315 /* Debug */,
+				E6176777198C0B5400C09315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6176778198C0B5400C09315 /* Build configuration list for PBXNativeTarget "InstaCollageExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6176779198C0B5400C09315 /* Debug */,
+				E617677A198C0B5400C09315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6176738198C0B5300C09315 /* Project object */;
+}
